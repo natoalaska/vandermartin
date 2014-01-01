@@ -1,0 +1,52 @@
+@import url("nav.css");
+@import url("form.css");
+
+body {
+	background: url(../images/blurred.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#content-container {
+	position: absolute;
+	left: 40px;
+	right: 40px;
+	top: 150px;
+	background: rgba(255,255,255,.3);;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	-webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+#content {
+	padding: 12px;
+}
+
+h1 {
+	position: absolute;
+	left: 40px;
+	right: 40px;
+	top: 20px;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px;
+	text-align: center;
+	color: #355681;
+	border-radius: 10px;
+}
+
+table {
+	margin: 0 auto;
+	width: 100%;
+}
+
+table td {
+	vertical-align: top;
+}
